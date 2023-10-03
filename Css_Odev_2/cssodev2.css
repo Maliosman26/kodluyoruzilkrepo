@@ -1,0 +1,83 @@
+body {
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+a {
+  color: blue;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  padding-top: 5%;
+}
+
+.container > .search {
+  background-color: #ddd;
+  margin: 0px 500px;
+}
+
+.logo {
+}
+
+.search > input {
+  width: 305px;
+  display: block;
+  margin-left: 300px;
+}
+
+button {
+}
+
+.links {
+  display: flex;
+  margin: 0px 500px;
+}
+.links1 {
+  flex: 2;
+  margin: 3px;
+  padding-top: 15px;
+  background-color: cadetblue;
+}
+.links1 > a {
+  display: block;
+}
+.links2 {
+  flex: 1;
+  background-color: cadetblue;
+  margin: 3px;
+  padding: 5px 70px;
+}
+
+.links2 > a {
+  display: block;
+}
+
+.form {
+  flex: 3;
+  background-color: cadetblue;
+  margin: 3px;
+}
+
+small {
+  display: block;
+  margin-top: 20px;
+}
+
+.form > input {
+  display: block;
+  width: 180px;
+  margin-left: 80px;
+}
+
+.form > button,
+a {
+  display: inline-block;
+  padding: 2px;
+}
