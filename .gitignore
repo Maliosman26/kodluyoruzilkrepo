@@ -1,0 +1,52 @@
+# Geçici dosyalar
+*~
+*.swp
+
+# IDE veya metin düzenleyici özel dosyaları
+.vscode/
+.idea/
+
+# Node.js bağımlılıkları
+node_modules/
+
+# Python sanal ortam dosyaları
+__pycache__/
+*.pyc
+
+# Derleme ve inşa dosyaları
+build/
+dist/
+*.exe
+
+# Kimlik bilgileri ve şifreler
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# SSH anahtarları ve kimlik bilgileri
+.ssh/
+
+# Log dosyaları
+*.log
+
+# Veritabanı dosyaları
+*.sqlite
+
+# Resim ve medya dosyaları
+*.jpg
+*.png
+
+# Sıkıştırılmış dosyalar
+*.zip
+*.tar.gz
+
+# Yedekleme dosyaları
+backup*/
+
+# Özel proje dosyaları
+config.json
+secret.key
+.DS_store
